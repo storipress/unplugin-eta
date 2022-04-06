@@ -2,7 +2,8 @@
   "name": "@storipress/unplugin-eta",
   "packageManager": "yarn@3.2.0",
   "scripts": {
-    "build": "unbuild"
+    "build": "unbuild",
+    "prepack": "unbuild"
   },
   "exports": {
     ".": {
@@ -18,10 +19,9 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "workspaces": [
-    ".",
-    "playground"
-  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@rollup/pluginutils": "^4.2.0",
     "unplugin": "^0.6.1"
