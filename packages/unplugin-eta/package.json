@@ -1,0 +1,38 @@
+{
+  "name": "@storipress/unplugin-eta",
+  "packageManager": "yarn@3.2.0",
+  "scripts": {
+    "build": "unbuild"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./browser-eta": {
+      "import": "./bundled/eta.es.dev.js"
+    },
+    "./*": "./*"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "workspaces": [
+    ".",
+    "playground"
+  ],
+  "dependencies": {
+    "@rollup/pluginutils": "^4.2.0",
+    "unplugin": "^0.6.1"
+  },
+  "devDependencies": {
+    "eta": "^1.12.3",
+    "typescript": "^4.6.3",
+    "unbuild": "^0.7.2",
+    "vite": "^2.9.1"
+  },
+  "peerDependencies": {
+    "eta": "*"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "unplugin-eta-playground",
+  "private": true,
+  "packageManager": "yarn@3.2.0",
+  "scripts": {
+    "dev": "vite dev"
+  },
+  "devDependencies": {
+    "@storipress/unplugin-eta": "workspace:*",
+    "vite": "^2.9.1",
+    "vite-plugin-inspect": "^0.4.3"
+  },
+  "dependencies": {
+    "eta": "^1.12.3"
+  }
+}
