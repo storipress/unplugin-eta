@@ -1,5 +1,5 @@
 import Eta from 'eta'
-import type { EtaConfig } from './types'
+import type { EtaConfig } from '../types'
 
 export function compile(code: string, options?: EtaConfig): string {
   const template = Eta.compileToString(code, {

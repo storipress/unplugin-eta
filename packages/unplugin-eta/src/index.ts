@@ -1,10 +1,9 @@
 import { createUnplugin } from 'unplugin'
 import { createFilter, FilterPattern } from '@rollup/pluginutils'
-import type { UserConfig } from 'vite'
-import { compile } from './compile'
+import { compile } from './core/compile'
 import type { EtaConfig } from './types'
 
-interface Options {
+export interface Options {
   include?: FilterPattern
   exclude?: FilterPattern
   options?: EtaConfig
