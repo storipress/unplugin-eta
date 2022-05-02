@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "config:js-lib"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["patch", "minor", "pin"],
+      "automerge": true
+    }
+  ],
+  "postUpdateOptions": ["yarnDedupeHighest"]
+}
