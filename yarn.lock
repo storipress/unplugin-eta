@@ -415,13 +415,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^4.1.1, @rollup/pluginutils@npm:^4.1.2, @rollup/pluginutils@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "@rollup/pluginutils@npm:4.2.0"
+"@rollup/pluginutils@npm:^4.1.1, @rollup/pluginutils@npm:^4.2.0, @rollup/pluginutils@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "@rollup/pluginutils@npm:4.2.1"
   dependencies:
     estree-walker: ^2.0.1
     picomatch: ^2.2.2
-  checksum: 2e86d9bfb95919727bcba0bbbdbedc98e25a1e51fe3047f18ec6d85e0743d1c73e1c0de3f9fdbd2ff6b90c32f30d4b2706c9e794f3c2e7a80156980081558e2e
+  checksum: 6bc41f22b1a0f1efec3043899e4d3b6b1497b3dea4d94292d8f83b4cf07a1073ecbaedd562a22d11913ff7659f459677b01b09e9598a98936e746780ecc93a12
   languageName: node
   linkType: hard
 
@@ -1085,7 +1085,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3.1, debug@npm:^4.3.3":
+"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3.1, debug@npm:^4.3.3, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -3137,10 +3137,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ufo@npm:^0.7.11":
-  version: 0.7.11
-  resolution: "ufo@npm:0.7.11"
-  checksum: e5dfaff619e9b6d2e1e205877738f701722c99a0da8eda5e180f72844cdb668488656de47d6777d85c1ca17717d527a45ae8eb3954a0271d7d08e59acc02dd99
+"ufo@npm:^0.8.4":
+  version: 0.8.4
+  resolution: "ufo@npm:0.8.4"
+  checksum: a2ebef6f64b9cc4114fc65405837eeb83eb8975edd6d54c7f37abb6905da6fd1f63524e4a02c8b087e7b0b3db6e6f4f798a3d86a96500410ff590b405f807dc9
   languageName: node
   linkType: hard
 
@@ -3213,7 +3213,7 @@ __metadata:
     "@storipress/unplugin-eta": "workspace:*"
     eta: ^1.12.3
     vite: 2.9.1
-    vite-plugin-inspect: 0.4.3
+    vite-plugin-inspect: 0.5.1
     vitest: 0.10.2
   languageName: unknown
   linkType: soft
@@ -3271,18 +3271,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.4.3":
-  version: 0.4.3
-  resolution: "vite-plugin-inspect@npm:0.4.3"
+"vite-plugin-inspect@npm:0.5.1":
+  version: 0.5.1
+  resolution: "vite-plugin-inspect@npm:0.5.1"
   dependencies:
-    "@rollup/pluginutils": ^4.1.2
-    debug: ^4.3.3
+    "@rollup/pluginutils": ^4.2.1
+    debug: ^4.3.4
     kolorist: ^1.5.1
     sirv: ^2.0.2
-    ufo: ^0.7.11
+    ufo: ^0.8.4
   peerDependencies:
-    vite: ^2.0.0
-  checksum: dcd4d93eb7e7c2ac636975d2086da17cedac8c7af5f2bdda2f628411364b8dd244b08fe2f08aa2d789de56cdbb1c0407f9d90cfc31b67dcea8c9f6a5336563e9
+    vite: ^2.9.0 || ^3.0.0-0
+  checksum: ec7580fac657b1275819f4d77a4707181365f87e08c6c7c51b0e7bc493b0a54c73245db572a729c76aa29af996f73fb05b36b049d6f67179a5cdb87adcdc37b6
   languageName: node
   linkType: hard
 
