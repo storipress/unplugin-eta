@@ -1,7 +1,7 @@
 {
   "name": "unplugin-eta-playground",
   "private": true,
-  "packageManager": "yarn@3.2.0",
+  "packageManager": "yarn@3.2.3",
   "scripts": {
     "dev": "vite dev",
     "test": "vitest"
