@@ -429,7 +429,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@storipress/unplugin-eta-workspace@workspace:."
   dependencies:
-    vite: 2.9.1
+    vite: 2.9.15
   languageName: unknown
   linkType: soft
 
@@ -445,7 +445,7 @@ __metadata:
     typescript: 4.6.3
     unbuild: 0.7.2
     unplugin: ^0.6.1
-    vite: 2.9.1
+    vite: 2.9.15
     webpack: 5.72.0
   peerDependencies:
     eta: "*"
@@ -2587,7 +2587,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.12, postcss@npm:^8.4.13":
+"postcss@npm:^8.4.13":
   version: 8.4.13
   resolution: "postcss@npm:8.4.13"
   dependencies:
@@ -2748,7 +2748,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.70.1, rollup@npm:^2.59.0, rollup@npm:^2.70.0":
+"rollup@npm:2.70.1":
   version: 2.70.1
   resolution: "rollup@npm:2.70.1"
   dependencies:
@@ -2759,6 +2759,20 @@ __metadata:
   bin:
     rollup: dist/bin/rollup
   checksum: 06c62933e6e81a1c8c684d7d576e507081aabdb63cc0c91bca86b7348b66df03b77827068e4990b8b6c738bd3ef66dcc8c7ed7e0ea40b736068e7618f693133e
+  languageName: node
+  linkType: hard
+
+"rollup@npm:>=2.59.0 <2.78.0, rollup@npm:^2.70.0":
+  version: 2.77.3
+  resolution: "rollup@npm:2.77.3"
+  dependencies:
+    fsevents: ~2.3.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: b179c68249584565ddb5664a241e8e48c293b2207718d885b08ee25797d98857a383f06b544bb89819407da5a71557f4713309a278f61c4778bb32b1d3321a1c
   languageName: node
   linkType: hard
 
@@ -3212,7 +3226,7 @@ __metadata:
   dependencies:
     "@storipress/unplugin-eta": "workspace:*"
     eta: ^1.12.3
-    vite: 2.9.1
+    vite: 2.9.15
     vite-plugin-inspect: 0.4.3
     vitest: 0.10.2
   languageName: unknown
@@ -3286,44 +3300,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:2.9.1":
-  version: 2.9.1
-  resolution: "vite@npm:2.9.1"
-  dependencies:
-    esbuild: ^0.14.27
-    fsevents: ~2.3.2
-    postcss: ^8.4.12
-    resolve: ^1.22.0
-    rollup: ^2.59.0
-  peerDependencies:
-    less: "*"
-    sass: "*"
-    stylus: "*"
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  peerDependenciesMeta:
-    less:
-      optional: true
-    sass:
-      optional: true
-    stylus:
-      optional: true
-  bin:
-    vite: bin/vite.js
-  checksum: 0f0ac9337fa5c17faa4a59831a2df17475563b23a6162e86b2b60b19835ca1277f3249ea7a6608880354b39caf05779e9bad1e3b1f5b27010deced224aae47ea
-  languageName: node
-  linkType: hard
-
-"vite@npm:^2.9.5":
-  version: 2.9.7
-  resolution: "vite@npm:2.9.7"
+"vite@npm:2.9.15, vite@npm:^2.9.5":
+  version: 2.9.15
+  resolution: "vite@npm:2.9.15"
   dependencies:
     esbuild: ^0.14.27
     fsevents: ~2.3.2
     postcss: ^8.4.13
     resolve: ^1.22.0
-    rollup: ^2.59.0
+    rollup: ">=2.59.0 <2.78.0"
   peerDependencies:
     less: "*"
     sass: "*"
@@ -3340,7 +3325,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: d3d2a86855709e037d244c3066e785d7b700e41bf59ceb776818ea06ee2ed579055c10596ca883dd56de46b3654ec82da53369062013a012a1a60819dbb7c0ee
+  checksum: 5edf8afc132a598f82a1339aa503514a0e86f6264babe94531b9000d801f157c9a32ae022542404678acca43ee260ade04c4763c4b7b8d381a6b50511b4a1447
   languageName: node
   linkType: hard
 
