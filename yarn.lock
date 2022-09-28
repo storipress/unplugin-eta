@@ -477,7 +477,7 @@ __metadata:
     esbuild: 0.15.9
     eta: 1.12.3
     rollup: 2.79.1
-    typescript: 4.8.3
+    typescript: 4.8.4
     unbuild: 0.8.11
     unplugin: ^0.9.6
     vite: 3.1.3
@@ -3247,23 +3247,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.8.3, typescript@npm:^4.8.2":
-  version: 4.8.3
-  resolution: "typescript@npm:4.8.3"
+"typescript@npm:4.8.4, typescript@npm:^4.8.2":
+  version: 4.8.4
+  resolution: "typescript@npm:4.8.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 8286a5edcaf3d68e65c451aa1e7150ad1cf53ee0813c07ec35b7abdfdb10f355ecaa13c6a226a694ae7a67785fd7eeebf89f845da0b4f7e4a35561ddc459aba0
+  checksum: 3e4f061658e0c8f36c820802fa809e0fd812b85687a9a2f5430bc3d0368e37d1c9605c3ce9b39df9a05af2ece67b1d844f9f6ea8ff42819f13bcb80f85629af0
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.8.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.8.2#~builtin<compat/typescript>":
-  version: 4.8.3
-  resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"
+"typescript@patch:typescript@4.8.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.8.2#~builtin<compat/typescript>":
+  version: 4.8.4
+  resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 2222d2382fb3146089b1d27ce2b55e9d1f99cc64118f1aba75809b693b856c5d3c324f052f60c75b577947fc538bc1c27bad0eb76cbdba9a63a253489504ba7e
+  checksum: 563a0ef47abae6df27a9a3ab38f75fc681f633ccf1a3502b1108e252e187787893de689220f4544aaf95a371a4eb3141e4a337deb9895de5ac3c1ca76430e5f0
   languageName: node
   linkType: hard
 
@@ -3344,7 +3344,7 @@ __metadata:
     "@storipress/unplugin-eta": "workspace:*"
     eta: ^1.12.3
     vite: 3.1.3
-    vite-plugin-inspect: 0.7.2
+    vite-plugin-inspect: 0.7.4
     vitest: 0.23.4
   languageName: unknown
   linkType: soft
@@ -3403,9 +3403,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.7.2":
-  version: 0.7.2
-  resolution: "vite-plugin-inspect@npm:0.7.2"
+"vite-plugin-inspect@npm:0.7.4":
+  version: 0.7.4
+  resolution: "vite-plugin-inspect@npm:0.7.4"
   dependencies:
     "@rollup/pluginutils": ^4.2.1
     debug: ^4.3.4
@@ -3415,7 +3415,7 @@ __metadata:
     ufo: ^0.8.5
   peerDependencies:
     vite: ^3.1.0
-  checksum: 63b982a301afd7ec2a1c8a6a027d66c995b2a2b745686d56f375444eb3cb662f05c3ebdb08f7adf9f94519b2e102c0aad786d13db9ccbfa0adb47c7bf38f2a2b
+  checksum: 0c0a9f2c5f6361acb2e10e0e7aac5723931719f455fa1050d885b7ba54f6cd81ada9931bcb670578f019ae7799bfe35d9f6a322c29481aa2d7aaab95cc171d4c
   languageName: node
   linkType: hard
 
