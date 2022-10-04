@@ -2244,10 +2244,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"kolorist@npm:^1.5.1":
-  version: 1.5.1
-  resolution: "kolorist@npm:1.5.1"
-  checksum: c113be08834fc03a24699612141c79879fceba9ff9765ad500507fb594ee4fa3465a3453ea90bbc9b0dd82f7ba5dbd79814da28e9ebaf8da27266a0088ba2714
+"kolorist@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "kolorist@npm:1.6.0"
+  checksum: 4d898b782ceaaac3a51d9820a13563fcd0ed516d5493374a0e04ceda93ed4d74f9e267e8da5fb4453e508099b9f6b22e38ac1bff92fdc227081f460c003401c0
   languageName: node
   linkType: hard
 
@@ -3344,7 +3344,7 @@ __metadata:
     "@storipress/unplugin-eta": "workspace:*"
     eta: ^1.12.3
     vite: 3.1.4
-    vite-plugin-inspect: 0.7.4
+    vite-plugin-inspect: 0.7.5
     vitest: 0.23.4
   languageName: unknown
   linkType: soft
@@ -3403,19 +3403,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.7.4":
-  version: 0.7.4
-  resolution: "vite-plugin-inspect@npm:0.7.4"
+"vite-plugin-inspect@npm:0.7.5":
+  version: 0.7.5
+  resolution: "vite-plugin-inspect@npm:0.7.5"
   dependencies:
     "@rollup/pluginutils": ^4.2.1
     debug: ^4.3.4
     fs-extra: ^10.1.0
-    kolorist: ^1.5.1
+    kolorist: ^1.6.0
     sirv: ^2.0.2
     ufo: ^0.8.5
   peerDependencies:
     vite: ^3.1.0
-  checksum: 0c0a9f2c5f6361acb2e10e0e7aac5723931719f455fa1050d885b7ba54f6cd81ada9931bcb670578f019ae7799bfe35d9f6a322c29481aa2d7aaab95cc171d4c
+  checksum: 5cc45456a3746e56484f4e6e831b03c2d5160e75bf95b3e848cf3db60d2581b04f77256c265984cc0dc9b808d20e4c80bc71c4e4a053a598539a827e0ddb4e41
   languageName: node
   linkType: hard
 
