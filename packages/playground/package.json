@@ -10,7 +10,7 @@
     "@storipress/unplugin-eta": "workspace:*",
     "vite": "3.1.8",
     "vite-plugin-inspect": "0.7.5",
-    "vitest": "0.24.1"
+    "vitest": "0.24.3"
   },
   "dependencies": {
     "eta": "^1.12.3"
