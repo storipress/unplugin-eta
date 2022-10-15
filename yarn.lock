@@ -495,7 +495,7 @@ __metadata:
     eta: 1.12.3
     rollup: 2.79.1
     typescript: 4.8.4
-    unbuild: 0.9.2
+    unbuild: 0.9.4
     unplugin: ^0.9.6
     vite: 3.1.8
     webpack: 5.74.0
@@ -590,22 +590,6 @@ __metadata:
     tapable: ^2.2.0
     webpack: ^5
   checksum: a038d7e12dd109c6a8d2eb744fd32070ef94f1655e730fb1443b370db98864c3a0e408638b02d12ba08269b9c012b3be8b801117ced2d1102e7676203fd663ed
-  languageName: node
-  linkType: hard
-
-"@unjsio/rollup-plugin-dts@npm:^5.0.0-rc.1":
-  version: 5.0.0-rc.1
-  resolution: "@unjsio/rollup-plugin-dts@npm:5.0.0-rc.1"
-  dependencies:
-    "@babel/code-frame": ^7.18.6
-    magic-string: ^0.26.7
-  peerDependencies:
-    rollup: ^3.0.0
-    typescript: ^4.1
-  dependenciesMeta:
-    "@babel/code-frame":
-      optional: true
-  checksum: d3de0c98f06f54a401f00668a153e4f102d677ca498c2d24f27f61aa04166b20a8d439394f56440d760c64ae891ee31459f6d048ec66605a0ba4796ac7aaa529
   languageName: node
   linkType: hard
 
@@ -1551,7 +1535,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:0.15.11, esbuild@npm:^0.15.10, esbuild@npm:^0.15.9":
+"esbuild@npm:0.15.11, esbuild@npm:^0.15.11, esbuild@npm:^0.15.9":
   version: 0.15.11
   resolution: "esbuild@npm:0.15.11"
   dependencies:
@@ -2012,10 +1996,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hookable@npm:^5.4.0":
-  version: 5.4.0
-  resolution: "hookable@npm:5.4.0"
-  checksum: 810376b27eab8a8c05684c2c4cb394c7837ac3cf7a91a63f0468cef908a87c982ab2f0320dce0bceaa5fac99006f361a113eb739d0ae3801a9137586b4707f0a
+"hookable@npm:^5.4.1":
+  version: 5.4.1
+  resolution: "hookable@npm:5.4.1"
+  checksum: 2a48150436bf70b4b756bcf15694809032c490c1747aba363a6de928a96712e808b0918de06c933e082cc2042c3f051b593d400df6af4773cd9ad1e85d677839
   languageName: node
   linkType: hard
 
@@ -2855,6 +2839,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"rollup-plugin-dts@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "rollup-plugin-dts@npm:5.0.0"
+  dependencies:
+    "@babel/code-frame": ^7.18.6
+    magic-string: ^0.26.7
+  peerDependencies:
+    rollup: ^3.0.0
+    typescript: ^4.1
+  dependenciesMeta:
+    "@babel/code-frame":
+      optional: true
+  checksum: feb2d614528c255ee698120be0fd404b0a4fa312362a3d687d76551157464decc66be6dfecb624c42bc64a9e6298ed21e13e689dc9b144acab8294cd08a53455
+  languageName: node
+  linkType: hard
+
 "rollup@npm:2.79.1":
   version: 2.79.1
   resolution: "rollup@npm:2.79.1"
@@ -2869,9 +2869,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "rollup@npm:3.1.0"
+"rollup@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "rollup@npm:3.2.0"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -2879,7 +2879,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 5f0bad2b949225eaaeb40204311b1c9eb9e7f4ed6664334b289c1329bf86f87416716d806f4861f501de6cead6eef7b489a140fd5fa57719fc877c5f280dff1b
+  checksum: b05761daa6cb339cfef19493c31f16a5a4fb234091113c27c48c168afea23106e9730d8f129edf119e2f579b19cd3dd9a0e177a58b303b77c724fe3734004c0a
   languageName: node
   linkType: hard
 
@@ -3295,9 +3295,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unbuild@npm:0.9.2":
-  version: 0.9.2
-  resolution: "unbuild@npm:0.9.2"
+"unbuild@npm:0.9.4":
+  version: 0.9.4
+  resolution: "unbuild@npm:0.9.4"
   dependencies:
     "@rollup/plugin-alias": ^4.0.0
     "@rollup/plugin-commonjs": ^23.0.0
@@ -3305,13 +3305,12 @@ __metadata:
     "@rollup/plugin-node-resolve": ^15.0.0
     "@rollup/plugin-replace": ^5.0.0
     "@rollup/pluginutils": ^5.0.1
-    "@unjsio/rollup-plugin-dts": ^5.0.0-rc.1
     chalk: ^5.1.2
     consola: ^2.15.3
     defu: ^6.1.0
-    esbuild: ^0.15.10
+    esbuild: ^0.15.11
     globby: ^13.1.2
-    hookable: ^5.4.0
+    hookable: ^5.4.1
     jiti: ^1.16.0
     magic-string: ^0.26.7
     mkdirp: ^1.0.4
@@ -3322,13 +3321,14 @@ __metadata:
     pkg-types: ^0.3.5
     pretty-bytes: ^6.0.0
     rimraf: ^3.0.2
-    rollup: ^3.1.0
+    rollup: ^3.2.0
+    rollup-plugin-dts: ^5.0.0
     scule: ^0.3.2
     typescript: ^4.8.4
     untyped: ^0.5.0
   bin:
     unbuild: dist/cli.mjs
-  checksum: 305752176903a0b70d66ef66500f9d3a77cf9abbad1ba3773bec3c916620e9ed74c9e0794a20c9a8240abbeeca4610e330953b33c5a76ad853ba4af5c0f10072
+  checksum: 6e80e87547b28325e5136a9f84cc4b4f67855f09cdf9b67308f6e104896ae110cce1758c74eeecdc7dbd3963b5f35b89e96ce6a795d4bdeed684c9477225e927
   languageName: node
   linkType: hard
 
