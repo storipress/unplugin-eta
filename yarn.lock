@@ -451,7 +451,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^4.1.1, @rollup/pluginutils@npm:^4.2.1":
+"@rollup/pluginutils@npm:^4.2.1":
   version: 4.2.1
   resolution: "@rollup/pluginutils@npm:4.2.1"
   dependencies:
@@ -495,7 +495,7 @@ __metadata:
     eta: 1.12.3
     rollup: 2.79.1
     typescript: 4.8.4
-    unbuild: 0.9.1
+    unbuild: 0.9.2
     unplugin: ^0.9.6
     vite: 3.1.8
     webpack: 5.74.0
@@ -590,6 +590,22 @@ __metadata:
     tapable: ^2.2.0
     webpack: ^5
   checksum: a038d7e12dd109c6a8d2eb744fd32070ef94f1655e730fb1443b370db98864c3a0e408638b02d12ba08269b9c012b3be8b801117ced2d1102e7676203fd663ed
+  languageName: node
+  linkType: hard
+
+"@unjsio/rollup-plugin-dts@npm:^5.0.0-rc.1":
+  version: 5.0.0-rc.1
+  resolution: "@unjsio/rollup-plugin-dts@npm:5.0.0-rc.1"
+  dependencies:
+    "@babel/code-frame": ^7.18.6
+    magic-string: ^0.26.7
+  peerDependencies:
+    rollup: ^3.0.0
+    typescript: ^4.1
+  dependenciesMeta:
+    "@babel/code-frame":
+      optional: true
+  checksum: d3de0c98f06f54a401f00668a153e4f102d677ca498c2d24f27f61aa04166b20a8d439394f56440d760c64ae891ee31459f6d048ec66605a0ba4796ac7aaa529
   languageName: node
   linkType: hard
 
@@ -1143,7 +1159,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3.1, debug@npm:^4.3.3, debug@npm:^4.3.4":
+"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3.1, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -1248,7 +1264,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-module-lexer@npm:^0.9.0, es-module-lexer@npm:^0.9.3":
+"es-module-lexer@npm:^0.9.0":
   version: 0.9.3
   resolution: "es-module-lexer@npm:0.9.3"
   checksum: 84bbab23c396281db2c906c766af58b1ae2a1a2599844a504df10b9e8dc77ec800b3211fdaa133ff700f5703d791198807bba25d9667392d27a5e9feda344da8
@@ -2208,13 +2224,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"joycon@npm:^3.0.1":
-  version: 3.1.1
-  resolution: "joycon@npm:3.1.1"
-  checksum: 8003c9c3fc79c5c7602b1c7e9f7a2df2e9916f046b0dbad862aa589be78c15734d11beb9fe846f5e06138df22cb2ad29961b6a986ba81c4920ce2b15a7f11067
-  languageName: node
-  linkType: hard
-
 "js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -2254,7 +2263,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonc-parser@npm:^3.0.0, jsonc-parser@npm:^3.2.0":
+"jsonc-parser@npm:^3.2.0":
   version: 3.2.0
   resolution: "jsonc-parser@npm:3.2.0"
   checksum: 946dd9a5f326b745aa326d48a7257e3f4a4b62c5e98ec8e49fa2bdd8d96cef7e6febf1399f5c7016114fd1f68a1c62c6138826d5d90bc650448e3cf0951c53c7
@@ -2320,7 +2329,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.26.4, magic-string@npm:^0.26.6, magic-string@npm:^0.26.7":
+"magic-string@npm:^0.26.4, magic-string@npm:^0.26.7":
   version: 0.26.7
   resolution: "magic-string@npm:0.26.7"
   dependencies:
@@ -2846,38 +2855,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-dts@npm:^4.2.3":
-  version: 4.2.3
-  resolution: "rollup-plugin-dts@npm:4.2.3"
-  dependencies:
-    "@babel/code-frame": ^7.18.6
-    magic-string: ^0.26.6
-  peerDependencies:
-    rollup: ^2.55
-    typescript: ^4.1
-  dependenciesMeta:
-    "@babel/code-frame":
-      optional: true
-  checksum: b1de94202d0574e7c12105bf0d013e7142c1b9b74d6b83d194d870dcdc281e90cff45ed47a0ab1c62280cc25e75f522e1278ec0ba89c8f75b8bcb56dc98c2c63
-  languageName: node
-  linkType: hard
-
-"rollup-plugin-esbuild@npm:^4.10.1":
-  version: 4.10.1
-  resolution: "rollup-plugin-esbuild@npm:4.10.1"
-  dependencies:
-    "@rollup/pluginutils": ^4.1.1
-    debug: ^4.3.3
-    es-module-lexer: ^0.9.3
-    joycon: ^3.0.1
-    jsonc-parser: ^3.0.0
-  peerDependencies:
-    esbuild: ">=0.10.1"
-    rollup: ^1.20.0 || ^2.0.0
-  checksum: 8bc7c90c972e00d6757b92d6ee4c04d9b0f34b61659f4c544b3994091bc5fdfe4ffdcbf56999111da39e39e650eb93001d587843e87bc306322d9869afe4d60b
-  languageName: node
-  linkType: hard
-
 "rollup@npm:2.79.1":
   version: 2.79.1
   resolution: "rollup@npm:2.79.1"
@@ -3318,9 +3295,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unbuild@npm:0.9.1":
-  version: 0.9.1
-  resolution: "unbuild@npm:0.9.1"
+"unbuild@npm:0.9.2":
+  version: 0.9.2
+  resolution: "unbuild@npm:0.9.2"
   dependencies:
     "@rollup/plugin-alias": ^4.0.0
     "@rollup/plugin-commonjs": ^23.0.0
@@ -3328,6 +3305,7 @@ __metadata:
     "@rollup/plugin-node-resolve": ^15.0.0
     "@rollup/plugin-replace": ^5.0.0
     "@rollup/pluginutils": ^5.0.1
+    "@unjsio/rollup-plugin-dts": ^5.0.0-rc.1
     chalk: ^5.1.2
     consola: ^2.15.3
     defu: ^6.1.0
@@ -3345,14 +3323,12 @@ __metadata:
     pretty-bytes: ^6.0.0
     rimraf: ^3.0.2
     rollup: ^3.1.0
-    rollup-plugin-dts: ^4.2.3
-    rollup-plugin-esbuild: ^4.10.1
     scule: ^0.3.2
     typescript: ^4.8.4
     untyped: ^0.5.0
   bin:
     unbuild: dist/cli.mjs
-  checksum: 281d11160f49d70a3b0e2e33d9914e2bedb7f45122447dd55f7e29b1fa8c770679b3bbac4b3fa4d192843c3a922c741e26c64b825f777d4dbf94e75bff6b278b
+  checksum: 305752176903a0b70d66ef66500f9d3a77cf9abbad1ba3773bec3c916620e9ed74c9e0794a20c9a8240abbeeca4610e330953b33c5a76ad853ba4af5c0f10072
   languageName: node
   linkType: hard
 
