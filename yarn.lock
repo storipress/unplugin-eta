@@ -461,7 +461,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^5.0.1":
+"@rollup/pluginutils@npm:^5.0.0, @rollup/pluginutils@npm:^5.0.1":
   version: 5.0.1
   resolution: "@rollup/pluginutils@npm:5.0.1"
   dependencies:
@@ -489,7 +489,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@storipress/unplugin-eta@workspace:packages/unplugin-eta"
   dependencies:
-    "@rollup/pluginutils": ^4.2.1
+    "@rollup/pluginutils": ^5.0.0
     "@types/webpack": 5.28.0
     esbuild: 0.15.11
     eta: 1.12.3
