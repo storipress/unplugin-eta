@@ -493,7 +493,7 @@ __metadata:
     "@types/webpack": 5.28.0
     esbuild: 0.15.11
     eta: 1.12.3
-    rollup: 2.79.1
+    rollup: 3.2.3
     typescript: 4.8.4
     unbuild: 0.9.4
     unplugin: ^0.9.6
@@ -2855,9 +2855,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.79.1":
-  version: 2.79.1
-  resolution: "rollup@npm:2.79.1"
+"rollup@npm:3.2.3, rollup@npm:^3.2.0":
+  version: 3.2.3
+  resolution: "rollup@npm:3.2.3"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -2865,21 +2865,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 6a2bf167b3587d4df709b37d149ad0300692cc5deb510f89ac7bdc77c8738c9546ae3de9322b0968e1ed2b0e984571f5f55aae28fa7de4cfcb1bc5402a4e2be6
-  languageName: node
-  linkType: hard
-
-"rollup@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "rollup@npm:3.2.0"
-  dependencies:
-    fsevents: ~2.3.2
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  bin:
-    rollup: dist/bin/rollup
-  checksum: b05761daa6cb339cfef19493c31f16a5a4fb234091113c27c48c168afea23106e9730d8f129edf119e2f579b19cd3dd9a0e177a58b303b77c724fe3734004c0a
+  checksum: e4b4f3b70fad4b8f7dabc579fb8bbe14399d5aed0cc1fcee39f15ae81804d6acd0e1063b653e6cf5ef50e8e954801689e2c822e99ed31ca18f1b1fbbea8075e5
   languageName: node
   linkType: hard
 
