@@ -3360,7 +3360,7 @@ __metadata:
     "@storipress/unplugin-eta": "workspace:*"
     eta: ^1.12.3
     vite: 3.2.3
-    vite-plugin-inspect: 0.7.7
+    vite-plugin-inspect: 0.7.8
     vitest: 0.25.1
   languageName: unknown
   linkType: soft
@@ -3419,9 +3419,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.7.7":
-  version: 0.7.7
-  resolution: "vite-plugin-inspect@npm:0.7.7"
+"vite-plugin-inspect@npm:0.7.8":
+  version: 0.7.8
+  resolution: "vite-plugin-inspect@npm:0.7.8"
   dependencies:
     "@rollup/pluginutils": ^5.0.2
     debug: ^4.3.4
@@ -3431,7 +3431,7 @@ __metadata:
     ufo: ^0.8.6
   peerDependencies:
     vite: ^3.1.0
-  checksum: 5bd4f6285a249f7fcb42fffbf30d3b7c5d4f73d467a4dddf16a30bbe8ecba7aaefd76a0eca7325da6c0ac859c6558dfbbd12d74901932f84a62bab8c06d4a54c
+  checksum: d1bac99a13fa7542b7b6535acad617e26bf587319c230125eff78cf1f5f9257b37cf824bb5a2c4cff99f6ca815cc22c1318b1e9b5a4a18fb8585eacf6db13fe7
   languageName: node
   linkType: hard
 
