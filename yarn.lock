@@ -3021,13 +3021,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ufo@npm:^0.8.6":
-  version: 0.8.6
-  resolution: "ufo@npm:0.8.6"
-  checksum: 5d483576230c7bfa2c9c9e5d864995e18d6c08ee3955c2237cc1a0d4b35a52991a0f5d26fe8cbf11952109a925a88dc14d973e0d14159b5b96b0fe7393a52899
-  languageName: node
-  linkType: hard
-
 "ufo@npm:^1.0.0":
   version: 1.0.0
   resolution: "ufo@npm:1.0.0"
@@ -3104,7 +3097,7 @@ __metadata:
     "@storipress/unplugin-eta": "workspace:*"
     eta: ^1.12.3
     vite: 3.2.4
-    vite-plugin-inspect: 0.7.8
+    vite-plugin-inspect: 0.7.9
     vitest: 0.25.2
   languageName: unknown
   linkType: soft
@@ -3163,19 +3156,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.7.8":
-  version: 0.7.8
-  resolution: "vite-plugin-inspect@npm:0.7.8"
+"vite-plugin-inspect@npm:0.7.9":
+  version: 0.7.9
+  resolution: "vite-plugin-inspect@npm:0.7.9"
   dependencies:
     "@rollup/pluginutils": ^5.0.2
     debug: ^4.3.4
     fs-extra: ^10.1.0
     kolorist: ^1.6.0
     sirv: ^2.0.2
-    ufo: ^0.8.6
+    ufo: ^1.0.0
   peerDependencies:
     vite: ^3.1.0
-  checksum: d1bac99a13fa7542b7b6535acad617e26bf587319c230125eff78cf1f5f9257b37cf824bb5a2c4cff99f6ca815cc22c1318b1e9b5a4a18fb8585eacf6db13fe7
+  checksum: 615d404240a70e075224a5e7374d8f5a0a681bc634dce167daa587bfc477ac1dfd328cc8c049e9c5dce1c0416530e03f3be742d0ae4db681bdc7cdde30df6c06
   languageName: node
   linkType: hard
 
