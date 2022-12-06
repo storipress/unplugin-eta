@@ -302,10 +302,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/sourcemap-codec@npm:^1.4.10":
-  version: 1.4.11
-  resolution: "@jridgewell/sourcemap-codec@npm:1.4.11"
-  checksum: 3b2afaf8400fb07a36db60e901fcce6a746cdec587310ee9035939d89878e57b2dec8173b0b8f63176f647efa352294049a53c49739098eb907ff81fec2547c8
+"@jridgewell/sourcemap-codec@npm:^1.4.10, @jridgewell/sourcemap-codec@npm:^1.4.13":
+  version: 1.4.14
+  resolution: "@jridgewell/sourcemap-codec@npm:1.4.14"
+  checksum: 61100637b6d173d3ba786a5dff019e1a74b1f394f323c1fee337ff390239f053b87266c7a948777f4b1ee68c01a8ad0ab61e5ff4abb5a012a0b091bec391ab97
   languageName: node
   linkType: hard
 
@@ -387,9 +387,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-commonjs@npm:^23.0.2":
-  version: 23.0.2
-  resolution: "@rollup/plugin-commonjs@npm:23.0.2"
+"@rollup/plugin-commonjs@npm:^23.0.3":
+  version: 23.0.3
+  resolution: "@rollup/plugin-commonjs@npm:23.0.3"
   dependencies:
     "@rollup/pluginutils": ^5.0.1
     commondir: ^1.0.1
@@ -402,13 +402,13 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: bd203a6e6fbcdc523f5d47a8a9e6b719f853270fbfa608c636124c213ec4b2a15026121e1e4faa820f52546425050f4c833bbf6bc58959909025cbc99c6d5df3
+  checksum: 925289c1694e871065d741ce210621df894febc267b9ca574dfe24e00a48b436f3eaa6a6f6d00312a78c9b51cc0cad7abf13b97fc455395576007c681d7ec58d
   languageName: node
   linkType: hard
 
-"@rollup/plugin-json@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "@rollup/plugin-json@npm:5.0.1"
+"@rollup/plugin-json@npm:^5.0.2":
+  version: 5.0.2
+  resolution: "@rollup/plugin-json@npm:5.0.2"
   dependencies:
     "@rollup/pluginutils": ^5.0.1
   peerDependencies:
@@ -416,7 +416,7 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 1b2f45f49cd3f3dcf2bd1b5987f330cc23bb1abfe049d8ca3d441eacbb8f9a052692b3f062023e175359de7db6dd55ef804393beab15d90aeb3fbf540494a036
+  checksum: 9b5f90ea311dfcfacf0f38af39bbb1954ea56d6faecdee3d528f73d0e02da96a0706ab21fae0c8eef9bb5d756f6f50b40b5a252ffd9800397012b5bac6764b6f
   languageName: node
   linkType: hard
 
@@ -488,7 +488,7 @@ __metadata:
     eta: 1.12.3
     rollup: 3.6.0
     typescript: 4.9.3
-    unbuild: 1.0.1
+    unbuild: 1.0.2
     unplugin: ^1.0.0
     vite: 3.2.5
     webpack: 5.75.0
@@ -1388,7 +1388,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:0.15.18, esbuild@npm:^0.15.13, esbuild@npm:^0.15.14, esbuild@npm:^0.15.9":
+"esbuild@npm:0.15.18, esbuild@npm:^0.15.13, esbuild@npm:^0.15.18, esbuild@npm:^0.15.9":
   version: 0.15.18
   resolution: "esbuild@npm:0.15.18"
   dependencies:
@@ -2087,6 +2087,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"magic-string@npm:^0.27.0":
+  version: 0.27.0
+  resolution: "magic-string@npm:0.27.0"
+  dependencies:
+    "@jridgewell/sourcemap-codec": ^1.4.13
+  checksum: 273faaa50baadb7a2df6e442eac34ad611304fc08fe16e24fe2e472fd944bfcb73ffb50d2dc972dc04e92784222002af46868cb9698b1be181c81830fd95a13e
+  languageName: node
+  linkType: hard
+
 "make-fetch-happen@npm:^10.0.3":
   version: 10.1.2
   resolution: "make-fetch-happen@npm:10.1.2"
@@ -2616,7 +2625,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:3.6.0, rollup@npm:^3.3.0":
+"rollup@npm:3.6.0, rollup@npm:^3.6.0":
   version: 3.6.0
   resolution: "rollup@npm:3.6.0"
   dependencies:
@@ -3028,24 +3037,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unbuild@npm:1.0.1":
-  version: 1.0.1
-  resolution: "unbuild@npm:1.0.1"
+"unbuild@npm:1.0.2":
+  version: 1.0.2
+  resolution: "unbuild@npm:1.0.2"
   dependencies:
     "@rollup/plugin-alias": ^4.0.2
-    "@rollup/plugin-commonjs": ^23.0.2
-    "@rollup/plugin-json": ^5.0.1
+    "@rollup/plugin-commonjs": ^23.0.3
+    "@rollup/plugin-json": ^5.0.2
     "@rollup/plugin-node-resolve": ^15.0.1
     "@rollup/plugin-replace": ^5.0.1
     "@rollup/pluginutils": ^5.0.2
     chalk: ^5.1.2
     consola: ^2.15.3
     defu: ^6.1.1
-    esbuild: ^0.15.14
+    esbuild: ^0.15.18
     globby: ^13.1.2
     hookable: ^5.4.2
     jiti: ^1.16.0
-    magic-string: ^0.26.7
+    magic-string: ^0.27.0
     mkdirp: ^1.0.4
     mkdist: ^1.0.0
     mlly: ^1.0.0
@@ -3054,14 +3063,14 @@ __metadata:
     pkg-types: ^1.0.1
     pretty-bytes: ^6.0.0
     rimraf: ^3.0.2
-    rollup: ^3.3.0
+    rollup: ^3.6.0
     rollup-plugin-dts: ^5.0.0
     scule: ^1.0.0
     typescript: ^4.9.3
     untyped: ^1.0.0
   bin:
     unbuild: dist/cli.mjs
-  checksum: 507d1618e83d4d23fe98ae3c228d36bef135475bc8e10a9503e9b01a27a64d4d9e1b9de744722a2b82642b4a9d002e2314e6bd0fdc3a7f8fd4c4aef28fb0d7fe
+  checksum: 91a2e773fb54536bf5f519754d7ab60e86d2c13e834e531de8716c685668dfaf67c809b05f823cd7b3cf2300e2e764c4e82c4ec3748819106f858359f631c824
   languageName: node
   linkType: hard
 
