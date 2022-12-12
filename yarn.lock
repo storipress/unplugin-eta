@@ -1820,6 +1820,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "fs-extra@npm:11.1.0"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: 5ca476103fa1f5ff4a9b3c4f331548f8a3c1881edaae323a4415d3153b5dc11dc6a981c8d1dd93eec8367ceee27b53f8bd27eecbbf66ffcdd04927510c171e7f
+  languageName: node
+  linkType: hard
+
 "fs-minipass@npm:^2.0.0, fs-minipass@npm:^2.1.0":
   version: 2.1.0
   resolution: "fs-minipass@npm:2.1.0"
@@ -3247,10 +3258,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ufo@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "ufo@npm:1.0.0"
-  checksum: 0ef41654d5b04028cc4778884e324f7fe1309c6dd7b3cbebc77e7eebd8df0776824c404ae958706667a7dce882510a3af31ec8dcef0ea1ec9f98cca84303407c
+"ufo@npm:^1.0.0, ufo@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "ufo@npm:1.0.1"
+  checksum: 63024876f21b7cc44267255a8043062046d3215e09212bd682787a13ccf1e0c5d23f7686a7f1bc7ac9f34c7e8a88100af234f42b509db50f17ce638af6ac87cc
   languageName: node
   linkType: hard
 
@@ -3323,7 +3334,7 @@ __metadata:
     "@storipress/unplugin-eta": "workspace:*"
     eta: ^1.12.3
     vite: 4.0.0
-    vite-plugin-inspect: 0.7.9
+    vite-plugin-inspect: 0.7.10
     vitest: 0.25.7
   languageName: unknown
   linkType: soft
@@ -3382,19 +3393,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.7.9":
-  version: 0.7.9
-  resolution: "vite-plugin-inspect@npm:0.7.9"
+"vite-plugin-inspect@npm:0.7.10":
+  version: 0.7.10
+  resolution: "vite-plugin-inspect@npm:0.7.10"
   dependencies:
     "@rollup/pluginutils": ^5.0.2
     debug: ^4.3.4
-    fs-extra: ^10.1.0
+    fs-extra: ^11.1.0
     kolorist: ^1.6.0
     sirv: ^2.0.2
-    ufo: ^1.0.0
+    ufo: ^1.0.1
   peerDependencies:
-    vite: ^3.1.0
-  checksum: 615d404240a70e075224a5e7374d8f5a0a681bc634dce167daa587bfc477ac1dfd328cc8c049e9c5dce1c0416530e03f3be742d0ae4db681bdc7cdde30df6c06
+    vite: ^3.1.0 || ^4.0.0
+  checksum: d6e6ece8456a1b45d0a5754fe62caa746ea3e69131f34cb9d4da586549b9ae3534906a6dae6903fd7375e0ad2b55eff67a548ed8900b8efa0b8013ac9c8de6d2
   languageName: node
   linkType: hard
 
