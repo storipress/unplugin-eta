@@ -646,7 +646,7 @@ __metadata:
     "@rollup/pluginutils": ^5.0.0
     "@types/webpack": 5.28.0
     esbuild: 0.16.17
-    eta: 1.12.3
+    eta: 1.13.0
     rollup: 3.9.1
     typescript: 4.9.4
     unbuild: 1.0.2
@@ -1764,10 +1764,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eta@npm:1.12.3, eta@npm:^1.12.3":
-  version: 1.12.3
-  resolution: "eta@npm:1.12.3"
-  checksum: 390c1cd320755cb98fd5a4a911539e8ed498fc49b82414f0023033ff606d80a34e6df0aeeb9fb0b519b318a750e6d17a72fc25f8a8c686cfc52d638e998237a1
+"eta@npm:1.13.0, eta@npm:^1.12.3":
+  version: 1.13.0
+  resolution: "eta@npm:1.13.0"
+  checksum: 2833ca90488012d876af791b1be84b9b6b2622271ec0bfa6c2b9aa86a9bd7895c1be5e9075d383154c8913eeeaa79a81cf82aff83dd4f093c35db71e2ae6fac3
   languageName: node
   linkType: hard
 
