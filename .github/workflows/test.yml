@@ -20,7 +20,7 @@ jobs:
       - name: Install Playwright Browsers
         run: yarn workspace unplugin-eta-playground playwright install --with-deps
       - name: Run test script
-        run: yarn workspace unplugin-eta-playground test
+        run: yarn workspace unplugin-eta-playground test:all
       - uses: actions/upload-artifact@v3
         if: always()
         with:
