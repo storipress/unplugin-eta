@@ -2,6 +2,7 @@
   "name": "@storipress/unplugin-eta",
   "version": "0.1.0",
   "packageManager": "yarn@3.3.1",
+  "license": "MIT",
   "scripts": {
     "build": "unbuild",
     "prepack": "unbuild"
