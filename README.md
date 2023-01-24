@@ -51,7 +51,3 @@ export default {
 }
 ```
 </details>
-
-## Browser-compatible Eta
-
-This plugin bundles a browser-compatible version of Eta for Vite to solve the issue of Node.js module not found. You only need to set up the plugin to get the bundled version.
