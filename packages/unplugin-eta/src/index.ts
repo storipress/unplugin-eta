@@ -22,19 +22,5 @@ export const EtaPlugin = createUnplugin<Options>(({ include, exclude, options } 
     transform: (code) => {
       return compile(code, options)
     },
-
-    vite: {
-      config: () => {
-        return {
-          resolve: {
-            alias: {
-              eta: '@storipress/unplugin-eta/browser-eta',
-            },
-          },
-        }
-      },
-    },
   }
 })
-
-export default EtaPlugin

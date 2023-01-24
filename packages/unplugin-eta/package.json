@@ -12,9 +12,6 @@
       "require": "./dist/index.cjs",
       "types": "./dist/index.d.ts"
     },
-    "./browser-eta": {
-      "import": "./bundled/eta.es.dev.js"
-    },
     "./vite": {
       "import": "./dist/vite.mjs",
       "require": "./dist/vite.cjs",
@@ -44,8 +41,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@rollup/pluginutils": "^5.0.0",
-    "unplugin": "^1.0.0"
+    "@rollup/pluginutils": "^5.0.2",
+    "unplugin": "^1.0.1"
   },
   "devDependencies": {
     "@types/webpack": "5.28.0",
@@ -58,6 +55,6 @@
     "webpack": "5.75.0"
   },
   "peerDependencies": {
-    "eta": "*"
+    "eta": "^1.14.2"
   }
 }
