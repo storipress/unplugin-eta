@@ -668,7 +668,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@playwright/test@npm:^1.29.2":
+"@playwright/test@npm:1.29.2":
   version: 1.29.2
   resolution: "@playwright/test@npm:1.29.2"
   dependencies:
@@ -3160,7 +3160,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-run-all@npm:^4.1.5":
+"npm-run-all@npm:4.1.5":
   version: 4.1.5
   resolution: "npm-run-all@npm:4.1.5"
   dependencies:
@@ -4034,7 +4034,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tiny-invariant@npm:^1.3.1":
+"tiny-invariant@npm:1.3.1":
   version: 1.3.1
   resolution: "tiny-invariant@npm:1.3.1"
   checksum: 872dbd1ff20a21303a2fd20ce3a15602cfa7fcf9b228bd694a52e2938224313b5385a1078cb667ed7375d1612194feaca81c4ecbe93121ca1baebe344de4f84c
@@ -4207,11 +4207,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "unplugin-eta-playground@workspace:packages/playground"
   dependencies:
-    "@playwright/test": ^1.29.2
+    "@playwright/test": 1.29.2
     "@storipress/unplugin-eta": "workspace:*"
     eta: ^1.14.2
-    npm-run-all: ^4.1.5
-    tiny-invariant: ^1.3.1
+    npm-run-all: 4.1.5
+    tiny-invariant: 1.3.1
     vite: 4.0.4
     vite-plugin-inspect: 0.7.14
     vitest: 0.28.1
