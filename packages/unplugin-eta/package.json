@@ -3,6 +3,14 @@
   "version": "0.1.1",
   "packageManager": "yarn@3.3.1",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storipress/unplugin-eta.git",
+    "directory": "packages/unplugin-eta"
+  },
+  "bugs": {
+    "url": "https://github.com/storipress/unplugin-eta/issues"
+  },
   "scripts": {
     "build": "unbuild",
     "prepack": "unbuild"
