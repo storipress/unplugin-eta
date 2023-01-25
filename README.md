@@ -1,7 +1,7 @@
 @storipress/unplugin-eta
 ========================
 
-[![Storipress](https://img.shields.io/badge/made_with_%E2%9D%A4%EF%B8%8F_by-Storipress-green)}(https://storipress.com?utm_source=github&utm_medium=badge&utm_campaign=unplugin-eta)
+[![Storipress](https://img.shields.io/badge/made_with_%E2%9D%A4%EF%B8%8F_by-Storipress-green)](https://storipress.com?utm_source=github&utm_medium=badge&utm_campaign=unplugin-eta)
 [![NPM version link](https://img.shields.io/npm/v/@storipress/unplugin-eta)](https://www.npmjs.com/package/@storipress/unplugin-eta)
 [![MIT License](https://img.shields.io/npm/l/@storipress/unplugin-eta)](https://www.npmjs.com/package/@storipress/unplugin-eta)
 
