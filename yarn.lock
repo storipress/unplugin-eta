@@ -799,7 +799,7 @@ __metadata:
     "@rollup/pluginutils": ^5.0.2
     "@types/webpack": 5.28.0
     esbuild: 0.17.5
-    eta: 1.14.2
+    eta: 2.0.0
     rollup: 3.11.0
     typescript: 4.9.4
     unbuild: 1.1.1
@@ -807,7 +807,7 @@ __metadata:
     vite: 4.0.4
     webpack: 5.75.0
   peerDependencies:
-    eta: ^1.14.2
+    eta: ^1.14.2 || ^2.0.0
   languageName: unknown
   linkType: soft
 
@@ -1985,10 +1985,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eta@npm:1.14.2, eta@npm:^1.14.2":
-  version: 1.14.2
-  resolution: "eta@npm:1.14.2"
-  checksum: 72a38b36ce604a2a418b0e8e4ca1e4f01c6dd89fee8476a79338ca41b376e0d2fec071bb6339bd54740fc35ed38afd589d72f6e3fe54257fea05300abf21c24c
+"eta@npm:2.0.0, eta@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "eta@npm:2.0.0"
+  checksum: ab8e93af73f0d4917485976aa8fcac68e730c47e9aa54a720c21c2e9087cdcd5f984a50cf5e04d189757612df014a229fa047a437651c9eea31e0b6bf1afe56b
   languageName: node
   linkType: hard
 
@@ -4209,7 +4209,7 @@ __metadata:
   dependencies:
     "@playwright/test": 1.30.0
     "@storipress/unplugin-eta": "workspace:*"
-    eta: ^1.14.2
+    eta: ^2.0.0
     npm-run-all: 4.1.5
     tiny-invariant: 1.3.1
     vite: 4.0.4
