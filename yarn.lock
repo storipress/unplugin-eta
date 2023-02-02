@@ -788,7 +788,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@storipress/unplugin-eta-workspace@workspace:."
   dependencies:
-    vite: 4.0.4
+    vite: 4.1.0
   languageName: unknown
   linkType: soft
 
@@ -804,7 +804,7 @@ __metadata:
     typescript: 4.9.5
     unbuild: 1.1.1
     unplugin: ^1.0.1
-    vite: 4.0.4
+    vite: 4.1.0
     webpack: 5.75.0
   peerDependencies:
     eta: ^1.14.2 || ^2.0.0
@@ -1854,7 +1854,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.16.16, esbuild@npm:^0.16.17, esbuild@npm:^0.16.3":
+"esbuild@npm:^0.16.14, esbuild@npm:^0.16.16, esbuild@npm:^0.16.17":
   version: 0.16.17
   resolution: "esbuild@npm:0.16.17"
   dependencies:
@@ -3357,14 +3357,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.20":
-  version: 8.4.20
-  resolution: "postcss@npm:8.4.20"
+"postcss@npm:^8.4.21":
+  version: 8.4.21
+  resolution: "postcss@npm:8.4.21"
   dependencies:
     nanoid: ^3.3.4
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 1a5609ea1c1b204f9c2974a0019ae9eef2d99bf645c2c9aac675166c4cb1005be7b5e2ba196160bc771f5d9ac896ed883f236f888c891e835e59d28fff6651aa
+  checksum: e39ac60ccd1542d4f9d93d894048aac0d686b3bb38e927d8386005718e6793dbbb46930f0a523fe382f1bbd843c6d980aaea791252bf5e176180e5a4336d9679
   languageName: node
   linkType: hard
 
@@ -3542,7 +3542,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:3.12.1, rollup@npm:^3.10.0, rollup@npm:^3.7.0":
+"rollup@npm:3.12.1, rollup@npm:^3.10.0":
   version: 3.12.1
   resolution: "rollup@npm:3.12.1"
   dependencies:
@@ -4212,7 +4212,7 @@ __metadata:
     eta: ^2.0.0
     npm-run-all: 4.1.5
     tiny-invariant: 1.3.1
-    vite: 4.0.4
+    vite: 4.1.0
     vite-plugin-inspect: 0.7.15
     vitest: 0.28.3
   languageName: unknown
@@ -4317,15 +4317,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:4.0.4, vite@npm:^3.0.0 || ^4.0.0":
-  version: 4.0.4
-  resolution: "vite@npm:4.0.4"
+"vite@npm:4.1.0, vite@npm:^3.0.0 || ^4.0.0":
+  version: 4.1.0
+  resolution: "vite@npm:4.1.0"
   dependencies:
-    esbuild: ^0.16.3
+    esbuild: ^0.16.14
     fsevents: ~2.3.2
-    postcss: ^8.4.20
+    postcss: ^8.4.21
     resolve: ^1.22.1
-    rollup: ^3.7.0
+    rollup: ^3.10.0
   peerDependencies:
     "@types/node": ">= 14"
     less: "*"
@@ -4351,7 +4351,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: eb86c8cdfe8dcb6644005486b31cb60bc596f2aa683cb194abb5c0afca7c2a5dfdb02bbc7f83f419ad170227ac9c3b898f4406a6d1433105fb61d79d78e47d52
+  checksum: 00443893c922a41539d4e990eb0ee58e2774c6254a442640b339e0ab200813e3010b463ab0487e5b487918add7935320464054e6f3473d84a6ea01d0799ec286
   languageName: node
   linkType: hard
 
