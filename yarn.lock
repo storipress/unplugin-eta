@@ -2768,10 +2768,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"kolorist@npm:^1.6.0":
-  version: 1.6.0
-  resolution: "kolorist@npm:1.6.0"
-  checksum: 4d898b782ceaaac3a51d9820a13563fcd0ed516d5493374a0e04ceda93ed4d74f9e267e8da5fb4453e508099b9f6b22e38ac1bff92fdc227081f460c003401c0
+"kolorist@npm:^1.7.0":
+  version: 1.7.0
+  resolution: "kolorist@npm:1.7.0"
+  checksum: 0eb64d22a204be11ddd7d2017525bf2603de38b15c571f79d6f0c5f1c869b8adfd40c3aa71c12e0cfe5496c25b2bbe891267cbc11f5b3fbc858d74ae79bac293
   languageName: node
   linkType: hard
 
@@ -4136,10 +4136,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ufo@npm:^1.0.1, ufo@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "ufo@npm:1.1.0"
-  checksum: f4098df457526be8bb1a466f05a2f72075b91580519215e0c219a4ff7dca4327b59964a053012f8547da77501b61cdebffbf8e16ef4d0509a7561efffe8e74ea
+"ufo@npm:^1.1.0, ufo@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "ufo@npm:1.1.1"
+  checksum: 6bd210ed93d8c0dedd76c456b1d1dfb0e3b08c2216ee6080e61f0f545de0bac24b3d3a5530cd6a403810855f8d8fc3922583965296142e04cfc287442635e6c7
   languageName: node
   linkType: hard
 
@@ -4225,7 +4225,7 @@ __metadata:
     npm-run-all: 4.1.5
     tiny-invariant: 1.3.1
     vite: 4.1.4
-    vite-plugin-inspect: 0.7.15
+    vite-plugin-inspect: 0.7.16
     vitest: 0.29.2
   languageName: unknown
   linkType: soft
@@ -4310,20 +4310,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.7.15":
-  version: 0.7.15
-  resolution: "vite-plugin-inspect@npm:0.7.15"
+"vite-plugin-inspect@npm:0.7.16":
+  version: 0.7.16
+  resolution: "vite-plugin-inspect@npm:0.7.16"
   dependencies:
     "@antfu/utils": ^0.7.2
     "@rollup/pluginutils": ^5.0.2
     debug: ^4.3.4
     fs-extra: ^11.1.0
-    kolorist: ^1.6.0
+    kolorist: ^1.7.0
     sirv: ^2.0.2
-    ufo: ^1.0.1
+    ufo: ^1.1.1
   peerDependencies:
     vite: ^3.1.0 || ^4.0.0
-  checksum: a07b190df22ef62da23f7cbf2ab3cd41cf9806ee2b5aaad64e584a3d7594549d01e5c86a48fbe9ca12b6a901bcbee4b6404bcdb4ca8a4e63034b0dfe78a9d882
+  checksum: 2b8c935228ed32064c977a08caca91cb0a2c993624e55e6bbd194ddac45fcd593b9eb856a8d0d7a6a2f1ce9cb0033e82111c7e35bfab8ddcb2506310b01d2280
   languageName: node
   linkType: hard
 
