@@ -1510,6 +1510,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"echarts@npm:^5.4.2":
+  version: 5.4.2
+  resolution: "echarts@npm:5.4.2"
+  dependencies:
+    tslib: 2.3.0
+    zrender: 5.4.3
+  checksum: 933c28dada362314f7c7a5fd4243b44b24f75adb233f7c87541ac9a81734cb380a9683c3f56c8e559dacfddd363879e95a96f0047e33820123cd8f5b95b60f8f
+  languageName: node
+  linkType: hard
+
 "electron-to-chromium@npm:^1.4.251":
   version: 1.4.261
   resolution: "electron-to-chromium@npm:1.4.261"
@@ -3297,6 +3307,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"resize-detector@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "resize-detector@npm:0.3.0"
+  checksum: 06c5f321b9349e34b71020b945cbd90c5300ca49d3e204fbc236c0827ad133a2d0cd48b9943a8b50723e4e16b67c106d9b8e1eba6240a6e136d1926373bacb2e
+  languageName: node
+  linkType: hard
+
 "resolve@npm:^1.10.0, resolve@npm:^1.22.1":
   version: 1.22.1
   resolution: "resolve@npm:1.22.1"
@@ -3884,6 +3901,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tslib@npm:2.3.0":
+  version: 2.3.0
+  resolution: "tslib@npm:2.3.0"
+  checksum: 8869694c26e4a7b56d449662fd54a4f9ba872c889d991202c74462bd99f10e61d5bd63199566c4284c0f742277736292a969642cc7b590f98727a7cae9529122
+  languageName: node
+  linkType: hard
+
 "type-detect@npm:^4.0.0, type-detect@npm:^4.0.5":
   version: 4.0.8
   resolution: "type-detect@npm:4.0.8"
@@ -4011,7 +4035,7 @@ __metadata:
     npm-run-all: 4.1.5
     tiny-invariant: 1.3.1
     vite: 4.2.1
-    vite-plugin-inspect: 0.7.19
+    vite-plugin-inspect: 0.7.20
     vitest: 0.30.0
   languageName: unknown
   linkType: soft
@@ -4101,20 +4125,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.7.19":
-  version: 0.7.19
-  resolution: "vite-plugin-inspect@npm:0.7.19"
+"vite-plugin-inspect@npm:0.7.20":
+  version: 0.7.20
+  resolution: "vite-plugin-inspect@npm:0.7.20"
   dependencies:
     "@antfu/utils": ^0.7.2
     "@rollup/pluginutils": ^5.0.2
     debug: ^4.3.4
+    echarts: ^5.4.2
     fs-extra: ^11.1.1
     kolorist: ^1.7.0
     sirv: ^2.0.2
     ufo: ^1.1.1
+    vue-echarts: ^6.5.4
   peerDependencies:
     vite: ^3.1.0 || ^4.0.0
-  checksum: 34097ec81c88595a9b184cc2ae16a57003dee1e4b073f3924cf6db50683d5358be2c713aafcd391508c845099e2a2b87211fda253f0b1676ab3696919bd846bf
+  checksum: 6a49bdf91c384745acd3f874dc0e58320df7cd239b2619ea5b4a279c3c84de4a747f1368c7c5e262416d8d26ed4643b68c376bcf3988d7cd6ebeff3c4d769373
   languageName: node
   linkType: hard
 
@@ -4215,6 +4241,39 @@ __metadata:
   bin:
     vitest: vitest.mjs
   checksum: 0f5add3c717d775243c4f41e87ab48ee9946001ecf7c063f42e3f88925b339c9fdfb00129dd137276288039c5315010d66f9999738980f223d47d0b32612a948
+  languageName: node
+  linkType: hard
+
+"vue-demi@npm:^0.13.2":
+  version: 0.13.11
+  resolution: "vue-demi@npm:0.13.11"
+  peerDependencies:
+    "@vue/composition-api": ^1.0.0-rc.1
+    vue: ^3.0.0-0 || ^2.6.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+  bin:
+    vue-demi-fix: bin/vue-demi-fix.js
+    vue-demi-switch: bin/vue-demi-switch.js
+  checksum: 0fbe9bf8ab7fe498ffa2bbd0cfc8f6f43a6bbaa5eda3e20ef1b70dca7c8b0ddb216a7ff2f632b694fe0735805638975abb441c621ec0bd2e6d4656353f316c15
+  languageName: node
+  linkType: hard
+
+"vue-echarts@npm:^6.5.4":
+  version: 6.5.4
+  resolution: "vue-echarts@npm:6.5.4"
+  dependencies:
+    resize-detector: ^0.3.0
+    vue-demi: ^0.13.2
+  peerDependencies:
+    "@vue/composition-api": ^1.0.5
+    echarts: ^5.4.1
+    vue: ^2.6.12 || ^3.1.1
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+  checksum: 1fa91c657809fb5d8a9a9902a2259f6b79b59ea0ab2aeaa21d76e4b2d4c8449b7c52df09152a4442dca8847e1a5f5ac6e965fb7a19159e17a92aa0cd21e74858
   languageName: node
   linkType: hard
 
@@ -4381,5 +4440,14 @@ __metadata:
   version: 1.0.0
   resolution: "yocto-queue@npm:1.0.0"
   checksum: 2cac84540f65c64ccc1683c267edce396b26b1e931aa429660aefac8fbe0188167b7aee815a3c22fa59a28a58d898d1a2b1825048f834d8d629f4c2a5d443801
+  languageName: node
+  linkType: hard
+
+"zrender@npm:5.4.3":
+  version: 5.4.3
+  resolution: "zrender@npm:5.4.3"
+  dependencies:
+    tslib: 2.3.0
+  checksum: ae89584fbe4256217e500a74183fd5870a2bed7e7b3234cd78fcbc0a1a82da8449596b2019105927069531b567ecf94425fb171abd6cedcbf517e52fdf438722
   languageName: node
   linkType: hard
