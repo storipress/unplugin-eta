@@ -6,6 +6,6 @@
     "packages/*"
   ],
   "devDependencies": {
-    "vite": "4.2.1"
+    "vite": "4.2.2"
   }
 }
