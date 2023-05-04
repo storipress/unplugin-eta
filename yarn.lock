@@ -3516,14 +3516,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sirv@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "sirv@npm:2.0.2"
+"sirv@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "sirv@npm:2.0.3"
   dependencies:
     "@polka/url": ^1.0.0-next.20
     mrmime: ^1.0.0
     totalist: ^3.0.0
-  checksum: 6982f8ecee9392d246d7eeea8144e50334fe1b46a4fa942995a844ea88c2d518b17cce781bb09926c9a5692a7002a207d18dfd67af2aa538a15e733dc2042298
+  checksum: e2dfd4c97735a6ad6d842d0eec2cd9e3919ff0e46f0d228248c5753ad4b70b832711e77e1259c031c439cdb08303cc54d923685c92b0e890145cc733af7c5568
   languageName: node
   linkType: hard
 
@@ -3997,7 +3997,7 @@ __metadata:
     npm-run-all: 4.1.5
     tiny-invariant: 1.3.1
     vite: 4.3.4
-    vite-plugin-inspect: 0.7.24
+    vite-plugin-inspect: 0.7.25
     vitest: 0.31.0
   languageName: unknown
   linkType: soft
@@ -4087,19 +4087,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.7.24":
-  version: 0.7.24
-  resolution: "vite-plugin-inspect@npm:0.7.24"
+"vite-plugin-inspect@npm:0.7.25":
+  version: 0.7.25
+  resolution: "vite-plugin-inspect@npm:0.7.25"
   dependencies:
     "@antfu/utils": ^0.7.2
     "@rollup/pluginutils": ^5.0.2
     debug: ^4.3.4
     fs-extra: ^11.1.1
     picocolors: ^1.0.0
-    sirv: ^2.0.2
+    sirv: ^2.0.3
   peerDependencies:
     vite: ^3.1.0 || ^4.0.0
-  checksum: 180d6e9c7c93f9eb2cf510f05e9f78619b15984edf4a30b1192bfbbc4a7ae48bde1f6d036ed8e3c67ad9f38ab41042742f7699fb493f441ecaf5a27aec4b444d
+  checksum: e2f9f10d64851f0c80701d47b1de37d785b43e50530c1758023033665c02adc22518703aea2ad8314fa2d2f8ba26745fa240609c373edbd2aa5bfd4ed6c0a399
   languageName: node
   linkType: hard
 
