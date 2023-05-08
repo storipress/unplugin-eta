@@ -3997,7 +3997,7 @@ __metadata:
     npm-run-all: 4.1.5
     tiny-invariant: 1.3.1
     vite: 4.3.5
-    vite-plugin-inspect: 0.7.25
+    vite-plugin-inspect: 0.7.26
     vitest: 0.31.0
   languageName: unknown
   linkType: soft
@@ -4087,9 +4087,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.7.25":
-  version: 0.7.25
-  resolution: "vite-plugin-inspect@npm:0.7.25"
+"vite-plugin-inspect@npm:0.7.26":
+  version: 0.7.26
+  resolution: "vite-plugin-inspect@npm:0.7.26"
   dependencies:
     "@antfu/utils": ^0.7.2
     "@rollup/pluginutils": ^5.0.2
@@ -4099,7 +4099,7 @@ __metadata:
     sirv: ^2.0.3
   peerDependencies:
     vite: ^3.1.0 || ^4.0.0
-  checksum: e2f9f10d64851f0c80701d47b1de37d785b43e50530c1758023033665c02adc22518703aea2ad8314fa2d2f8ba26745fa240609c373edbd2aa5bfd4ed6c0a399
+  checksum: 6bcf6e814bd9014a391f3d56c050621c9f25e28ad25de9a1d2c6e89a871127dfa09b8f06467bd82d0b42ba2d689b0f4537a577d562adbfb7358d1cabf4d4f395
   languageName: node
   linkType: hard
 
