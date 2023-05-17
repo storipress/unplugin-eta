@@ -61,7 +61,7 @@
     "typescript": "5.0.4",
     "unbuild": "1.2.1",
     "vite": "4.3.7",
-    "webpack": "5.82.1"
+    "webpack": "5.83.1"
   },
   "peerDependencies": {
     "eta": "^1.14.2 || ^2.0.0"
