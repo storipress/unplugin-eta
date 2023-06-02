@@ -1,6 +1,6 @@
 {
   "name": "@storipress/unplugin-eta-workspace",
-  "packageManager": "yarn@3.5.1",
+  "packageManager": "yarn@3.6.0",
   "private": true,
   "workspaces": [
     "packages/*"
