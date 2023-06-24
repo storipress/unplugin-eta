@@ -15,7 +15,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antfu/utils@npm:^0.7.2":
+"@antfu/utils@npm:^0.7.4":
   version: 0.7.4
   resolution: "@antfu/utils@npm:0.7.4"
   checksum: f5c1107c9aec0bda43a7021f3a9adb4bed113467a40590a9cecd3998408a5c04b0fb68be53438f56487153eaf6278fa128dbe4e0be88b7af65212fe0497e4fdd
@@ -4529,7 +4529,7 @@ __metadata:
     npm-run-all: 4.1.5
     tiny-invariant: 1.3.1
     vite: 4.3.9
-    vite-plugin-inspect: 0.7.28
+    vite-plugin-inspect: 0.7.29
     vitest: 0.32.2
   languageName: unknown
   linkType: soft
@@ -4626,11 +4626,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.7.28":
-  version: 0.7.28
-  resolution: "vite-plugin-inspect@npm:0.7.28"
+"vite-plugin-inspect@npm:0.7.29":
+  version: 0.7.29
+  resolution: "vite-plugin-inspect@npm:0.7.29"
   dependencies:
-    "@antfu/utils": ^0.7.2
+    "@antfu/utils": ^0.7.4
     "@rollup/pluginutils": ^5.0.2
     debug: ^4.3.4
     fs-extra: ^11.1.1
@@ -4639,7 +4639,7 @@ __metadata:
     sirv: ^2.0.3
   peerDependencies:
     vite: ^3.1.0 || ^4.0.0
-  checksum: ba43a8aab65a75429503df9aa18fe817057d9f8af4818002ee7b6c99bea728eaffe7e41f51008aab01777b9fb09ffc8807040bb58259f8c64c0f91f4122abe7d
+  checksum: 756b86df0ba409a750f5cd1d46a86eb360c605f4c8ef6eb111442aeffd05d0ac7b909e47c9c03b51701ede41182c18ba25e6d8247ad63b5f396bad8ebb1c3526
   languageName: node
   linkType: hard
 
