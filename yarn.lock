@@ -827,7 +827,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@storipress/unplugin-eta-workspace@workspace:."
   dependencies:
-    vite: 4.4.5
+    vite: 4.4.8
   languageName: unknown
   linkType: soft
 
@@ -843,7 +843,7 @@ __metadata:
     typescript: 5.1.6
     unbuild: 1.2.1
     unplugin: ^1.0.1
-    vite: 4.4.5
+    vite: 4.4.8
     webpack: 5.88.2
   peerDependencies:
     eta: ^1.14.2 || ^2.0.0
@@ -4474,7 +4474,7 @@ __metadata:
     eta: ^2.0.0
     npm-run-all: 4.1.5
     tiny-invariant: 1.3.1
-    vite: 4.4.5
+    vite: 4.4.8
     vite-plugin-inspect: 0.7.33
     vitest: 0.33.0
   languageName: unknown
@@ -4589,9 +4589,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:4.4.5, vite@npm:^3.0.0 || ^4.0.0":
-  version: 4.4.5
-  resolution: "vite@npm:4.4.5"
+"vite@npm:4.4.8, vite@npm:^3.0.0 || ^4.0.0":
+  version: 4.4.8
+  resolution: "vite@npm:4.4.8"
   dependencies:
     esbuild: ^0.18.10
     fsevents: ~2.3.2
@@ -4625,7 +4625,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 825d8c13511b764710ca503e603746e20a7cb963194033dc606c46b1650a0d8986b577ba92507b54143cbf467032e9868ea04913a86a8fcb88b69c5b8551938b
+  checksum: e8ffe688f8a7396b1357778f00cb06d1f3dadad200823c47a1955cf52774a0cbff5ac4d6a8f8d09e26c1d4e588e5815956f9eba02ae301e77a36c3d181a1bc86
   languageName: node
   linkType: hard
 
