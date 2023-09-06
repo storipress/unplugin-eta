@@ -57,7 +57,7 @@
     "@types/webpack": "5.28.2",
     "esbuild": "0.19.2",
     "eta": "2.2.0",
-    "rollup": "3.28.1",
+    "rollup": "3.29.0",
     "typescript": "5.2.2",
     "unbuild": "1.2.1",
     "vite": "4.4.9",
