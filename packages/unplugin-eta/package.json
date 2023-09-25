@@ -54,7 +54,7 @@
     "unplugin": "^1.0.1"
   },
   "devDependencies": {
-    "@types/webpack": "5.28.2",
+    "@types/webpack": "5.28.3",
     "esbuild": "0.19.3",
     "eta": "2.2.0",
     "rollup": "3.29.3",
