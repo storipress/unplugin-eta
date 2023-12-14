@@ -21,7 +21,7 @@ jobs:
         run: yarn workspace unplugin-eta-playground playwright install --with-deps
       - name: Run test script
         run: yarn workspace unplugin-eta-playground test:all
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: playwright-report
