@@ -56,7 +56,7 @@
   "devDependencies": {
     "@types/webpack": "5.28.5",
     "esbuild": "0.20.2",
-    "eta": "2.2.0",
+    "eta": "3.4.0",
     "rollup": "4.13.1",
     "typescript": "5.4.3",
     "unbuild": "2.0.0",
@@ -64,6 +64,6 @@
     "webpack": "5.91.0"
   },
   "peerDependencies": {
-    "eta": "^1.14.2 || ^2.0.0"
+    "eta": "^1.14.2 || ^2.0.0 || ^3.0.0"
   }
 }
