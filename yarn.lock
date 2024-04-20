@@ -3421,15 +3421,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"open@npm:^10.0.3":
-  version: 10.0.3
-  resolution: "open@npm:10.0.3"
+"open@npm:^10.1.0":
+  version: 10.1.0
+  resolution: "open@npm:10.1.0"
   dependencies:
     default-browser: "npm:^5.2.1"
     define-lazy-prop: "npm:^3.0.0"
     is-inside-container: "npm:^1.0.0"
     is-wsl: "npm:^3.1.0"
-  checksum: 10/4dc757ad1d3d63490822f991e9cbe3a7c05b7249fca2eaa571cb7d191e5cec88bc37e15d8ef4fd740d8989a288b661d8da253caa8d98e8c97430ddbbb0ae4ed1
+  checksum: 10/a9c4105243a1b3c5312bf2aeb678f78d31f00618b5100088ee01eed2769963ea1f2dd464ac8d93cef51bba2d911e1a9c0c34a753ec7b91d6b22795903ea6647a
   languageName: node
   linkType: hard
 
@@ -4692,7 +4692,7 @@ __metadata:
     npm-run-all2: "npm:6.1.2"
     tiny-invariant: "npm:1.3.3"
     vite: "npm:5.2.10"
-    vite-plugin-inspect: "npm:0.8.3"
+    vite-plugin-inspect: "npm:0.8.4"
     vitest: "npm:1.5.0"
   languageName: unknown
   linkType: soft
@@ -4771,16 +4771,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.8.3":
-  version: 0.8.3
-  resolution: "vite-plugin-inspect@npm:0.8.3"
+"vite-plugin-inspect@npm:0.8.4":
+  version: 0.8.4
+  resolution: "vite-plugin-inspect@npm:0.8.4"
   dependencies:
     "@antfu/utils": "npm:^0.7.7"
     "@rollup/pluginutils": "npm:^5.1.0"
     debug: "npm:^4.3.4"
     error-stack-parser-es: "npm:^0.1.1"
     fs-extra: "npm:^11.2.0"
-    open: "npm:^10.0.3"
+    open: "npm:^10.1.0"
     perfect-debounce: "npm:^1.0.0"
     picocolors: "npm:^1.0.0"
     sirv: "npm:^2.0.4"
@@ -4789,7 +4789,7 @@ __metadata:
   peerDependenciesMeta:
     "@nuxt/kit":
       optional: true
-  checksum: 10/f9eaf9e0ad7478f491608d2fe0bd65585ede5d9fa17614b7623c7a51481ed94a73a9694decac5aceb16a59c3e52ae988cf0558be5ac07ea3998e9b8affff3edf
+  checksum: 10/7b8997bef0f39ba4a726b47c546aeb1ecd16d5f039e6ca5d5a1b24963197ce894aee6024b456c158d22c0cf37780e38b69e164d4cc5bc6e0d6e2442c809fb9a0
   languageName: node
   linkType: hard
 
