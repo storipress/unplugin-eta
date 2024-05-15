@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "@types/webpack": "5.28.5",
-    "esbuild": "0.21.2",
+    "esbuild": "0.21.3",
     "eta": "2.2.0",
     "rollup": "4.17.2",
     "typescript": "5.4.5",
