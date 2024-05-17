@@ -12,7 +12,7 @@
   "devDependencies": {
     "@playwright/test": "1.44.0",
     "@storipress/unplugin-eta": "workspace:*",
-    "npm-run-all2": "6.1.2",
+    "npm-run-all2": "6.2.0",
     "tiny-invariant": "1.3.3",
     "vite": "5.2.11",
     "vite-plugin-inspect": "0.8.4",
