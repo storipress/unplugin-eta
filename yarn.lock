@@ -4965,7 +4965,7 @@ __metadata:
     npm-run-all2: "npm:6.2.6"
     tiny-invariant: "npm:1.3.3"
     vite: "npm:5.4.11"
-    vite-plugin-inspect: "npm:0.8.8"
+    vite-plugin-inspect: "npm:0.10.3"
     vitest: "npm:1.6.0"
   languageName: unknown
   linkType: soft
@@ -5044,9 +5044,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.8.8":
-  version: 0.8.8
-  resolution: "vite-plugin-inspect@npm:0.8.8"
+"vite-plugin-inspect@npm:0.10.3":
+  version: 0.10.3
+  resolution: "vite-plugin-inspect@npm:0.10.3"
   dependencies:
     "@antfu/utils": "npm:^0.7.10"
     "@rollup/pluginutils": "npm:^5.1.3"
@@ -5058,11 +5058,11 @@ __metadata:
     picocolors: "npm:^1.1.1"
     sirv: "npm:^3.0.0"
   peerDependencies:
-    vite: ^3.1.0 || ^4.0.0 || ^5.0.0-0
+    vite: ^6.0.0
   peerDependenciesMeta:
     "@nuxt/kit":
       optional: true
-  checksum: 10/0b659afec201a861bc51f236493cbb4b70441be0d14288e85a3f7a5ba318eb85b3e07b0e7b43cea51825b41cb2b8679ee7aa329c376d622dc0657ff617c37c88
+  checksum: 10/68a8b1879518d9b103a7f988c85223ceb190e89d4f7f12ee57f357955c2a1e9d8528240b093b944a140521c7817844cef10e4c78bbfc7fa8ad93f6176c526d28
   languageName: node
   linkType: hard
 
