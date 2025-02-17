@@ -59,7 +59,7 @@
     "eta": "2.2.0",
     "rollup": "4.34.8",
     "typescript": "5.7.3",
-    "unbuild": "2.0.0",
+    "unbuild": "3.3.1",
     "vite": "5.4.14",
     "webpack": "5.98.0"
   },
