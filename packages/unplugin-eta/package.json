@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@rollup/pluginutils": "^5.1.0",
-    "unplugin": "^1.7.1"
+    "unplugin": "^2.0.0"
   },
   "devDependencies": {
     "@types/webpack": "5.28.5",
