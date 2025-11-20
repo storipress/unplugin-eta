@@ -982,9 +982,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^5.0.1, @rollup/pluginutils@npm:^5.0.3, @rollup/pluginutils@npm:^5.1.0, @rollup/pluginutils@npm:^5.1.3":
-  version: 5.1.3
-  resolution: "@rollup/pluginutils@npm:5.1.3"
+"@rollup/pluginutils@npm:^5.0.1, @rollup/pluginutils@npm:^5.0.3, @rollup/pluginutils@npm:^5.1.0, @rollup/pluginutils@npm:^5.1.4":
+  version: 5.3.0
+  resolution: "@rollup/pluginutils@npm:5.3.0"
   dependencies:
     "@types/estree": "npm:^1.0.0"
     estree-walker: "npm:^2.0.2"
@@ -994,7 +994,7 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 10/da24956c4f7ec0aed63a2dd6c6dd64d8ad90155918056e69adda6fbb7b96c607300079805bc63f2e64e33ba256802367301a578d020a22262f408bde98ca3643
+  checksum: 10/6c7dbab90e0ca5918a36875f745a0f30b47d5e0f45b42ed381ad8f7fed76b23e935766b66e3ae75375a42a80369569913abc8fd2529f4338471a1b2b4dfebaff
   languageName: node
   linkType: hard
 
@@ -2117,15 +2117,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3.1, debug@npm:^4.3.4, debug@npm:^4.3.7":
-  version: 4.3.7
-  resolution: "debug@npm:4.3.7"
+"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3.1, debug@npm:^4.3.4, debug@npm:^4.4.0":
+  version: 4.4.3
+  resolution: "debug@npm:4.4.3"
   dependencies:
     ms: "npm:^2.1.3"
   peerDependenciesMeta:
     supports-color:
       optional: true
-  checksum: 10/71168908b9a78227ab29d5d25fe03c5867750e31ce24bf2c44a86efc5af041758bb56569b0a3d48a9b5344c00a24a777e6f4100ed6dfd9534a42c1dde285125a
+  checksum: 10/9ada3434ea2993800bd9a1e320bd4aa7af69659fb51cca685d390949434bc0a8873c21ed7c9b852af6f2455a55c6d050aa3937d52b3c69f796dab666f762acad
   languageName: node
   linkType: hard
 
@@ -5051,7 +5051,7 @@ __metadata:
     npm-run-all2: "npm:6.2.6"
     tiny-invariant: "npm:1.3.3"
     vite: "npm:5.4.21"
-    vite-plugin-inspect: "npm:0.8.8"
+    vite-plugin-inspect: "npm:0.10.6"
     vitest: "npm:1.6.1"
   languageName: unknown
   linkType: soft
@@ -5121,13 +5121,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-inspect@npm:0.8.8":
-  version: 0.8.8
-  resolution: "vite-plugin-inspect@npm:0.8.8"
+"vite-plugin-inspect@npm:0.10.6":
+  version: 0.10.6
+  resolution: "vite-plugin-inspect@npm:0.10.6"
   dependencies:
     "@antfu/utils": "npm:^0.7.10"
-    "@rollup/pluginutils": "npm:^5.1.3"
-    debug: "npm:^4.3.7"
+    "@rollup/pluginutils": "npm:^5.1.4"
+    debug: "npm:^4.4.0"
     error-stack-parser-es: "npm:^0.1.5"
     fs-extra: "npm:^11.2.0"
     open: "npm:^10.1.0"
@@ -5135,11 +5135,11 @@ __metadata:
     picocolors: "npm:^1.1.1"
     sirv: "npm:^3.0.0"
   peerDependencies:
-    vite: ^3.1.0 || ^4.0.0 || ^5.0.0-0
+    vite: ^6.0.0
   peerDependenciesMeta:
     "@nuxt/kit":
       optional: true
-  checksum: 10/0b659afec201a861bc51f236493cbb4b70441be0d14288e85a3f7a5ba318eb85b3e07b0e7b43cea51825b41cb2b8679ee7aa329c376d622dc0657ff617c37c88
+  checksum: 10/3df6a67352cc3c35bd926d86953e6cf18a0765cecd1d37d0e1eb47f37fe0266fc9960def7f6ba97bbdcbe4d17dd1f9c833f1bb1a7c1285bb5ef003d9f384c4fa
   languageName: node
   linkType: hard
 
